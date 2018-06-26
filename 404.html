@@ -1,0 +1,20 @@
+---
+permalink: /404.html
+---
+
+<!doctype html>
+<html>
+	<head>
+	<title>Stevens Game Development Club</title>
+	<script>
+	window.onload = function () {
+		var s = window.location.href;
+		var hash = s.substring(s.lastIndexOf('/') + 1, s.length).toLowerCase();
+		window.location = "https://sgdc.github.io/" + hash;
+	}
+	</script>
+	</head>
+	<body style="font-size: 14px; font-family: monospace;">
+		Redirecting...
+	</body>
+</html>
